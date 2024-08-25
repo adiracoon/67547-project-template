@@ -2,7 +2,7 @@
 Use this template to describe and document your engineering project.
 
 <!-- cool project cover image -->
-![Project Cover Image](/media/project-cover-img.jpg)
+![Project Cover Image](https://github.com/adiracoon/Project/blob/main/R.webp)
 
 <!-- table of content -->
 ## Table of Contents
@@ -11,69 +11,49 @@ Use this template to describe and document your engineering project.
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Installing](#installing)
-- [Testing](#testing)
-- [Deployment](#deployment)
 - [Built With](#built-with)
 - [Acknowledgments](#acknowledgments)
 
 ## 👥 The Team 
-**Team Members**
-- [Member 1](name@emial.com)
-- [Member 2](name@emial.com)
+**Group Number: 118A**
+- [Member 1](adir.ashash@mail.huji.ac.il)
+
 
 **Supervisor**
-- [Supervisor](wwww.link_to_lab.com)
+- [Gal Katzhendler](gal.katzhendler@mail.huji.ac.il)
 
 
 ## 📚 Project Description
-- A brief description of the project/challange, what it does, and how it works.
-- A list of the main features and functionalities of the project.
-- A list of the main components of the project.
-- A list of the main technologies used in the project.
+The AR Images Layout Planner is a tool that assists users in planning and executing the perfect placement of pictures on walls, using augmented reality to guide and monitor the alignment process.
+
 
 
 ## ⚡ Getting Started
 
-These instructions will give you a copy of the project up and running on
-your local machine for development and testing purposes. 
+These instructions will help you set up the project on your local machine for development and testing purposes.
 
 ### 🧱 Prerequisites
-Requirements for the software and other tools to build, test and push 
-- [Example 1](https://www.example.com)
-- [Example 2](https://www.example.com)
+- Python 3.10
+- A valid installation of pip (Python package manager)
+- A virtual environment (recommended)
+
 
 ### 🏗️ Installing
-A step by step series of examples that tell you how to get a development environment running
+    Clone the repository:
+   git clone https://github.com/adiracoon/Project.git
+   cd Project
+   source venv/bin/activate  python -m venv venv # On Windows use `venv\Scripts\activate`
+   pip install -r requirements.txt
 
-Say what the step will be
-
-    Give the example
-
-And repeat
-
-    until finished
-
-End with an example of getting some data out of the system or using it
-for a little demo
-
-## 🧪 Testing
-Explain how to run tests for this project
-
-### Sample Tests
-Explain what these tests test and why
-
-    Give an example
 
 ## 🚀 Deployment
 Add additional notes on how to deploy this on a live system
 
 ## ⚙️ Built With
-  - [Based on the amazing work of reserch group xxxx](https://www.example.com)
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose the license
+  - [Python 3.10](https://www.python.org/downloads/release/python-3100/)
+  - [OpenCV 4.10.0](https://opencv.org/)
+  - [Tkinter](https://docs.python.org/3/library/tkinter.html) - Built-in with Python
 
 
 ## 🙏 Acknowledgments
-  - Hat tip to anyone whose code is used
-  - Inspiration
-  - etc
+  - Special thanks to Evyatar Alcalay (evyatar.alcalay@mail.huji.ac.il) for assistance with the user interface design.
